@@ -1,6 +1,11 @@
 spring:
   application:
     name: order-service
+rabbitmq:
+    host: 192.168.214.129
+    port: 5672
+    username: admin
+    password: admin 
  
 eureka:
   client:

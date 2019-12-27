@@ -5,6 +5,11 @@ sp:
 spring:
   application:
     name: user-service 
+rabbitmq:
+    host: 192.168.214.129
+    port: 5672
+    username: admin
+    password: admin    
 cloud:
     config:
       override-none: true
